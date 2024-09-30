@@ -123,7 +123,7 @@
     @endforeach
 
     <!-- Pagination -->
-     @if(count($users) > 2)
+     @if(count($users) > 5)
         <div class="card col-md-10 pt-3">
             {{ $users->links() }}
         </div>
